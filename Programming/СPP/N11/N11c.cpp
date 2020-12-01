@@ -21,10 +21,8 @@ int main()
         cout << "Введите число Z: ";
         cin >> z;
 
-
         a = (1 + y) * ((x + (y / (pow(x , 2) + 4))) / (exp(-1 * x - 2)) + (1 \ (pow(x , 2) + 4)))
         b = (1 + cos(y - 2)) / ((pow(x , 4) / 2) + (2 * sin(z) * cos(z)))
-
 
         cout << "A = " << a << endl;
         cout << "B = " << b;
